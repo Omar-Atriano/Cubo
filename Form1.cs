@@ -39,15 +39,6 @@ namespace Cubo
             pictureBox1.Image = bmp;
             scene.Draw(g, pictureBox1.Width, pictureBox1.Height, rotX, rotY, rotZ);
         }
-        //protected override void OnPaint(PaintEventArgs e)
-        //{
-        //    base.OnPaint(e);
-        //    bmp = new Bitmap(pictureBox1.Width, pictureBox1.Height);
-        //    g = Graphics.FromImage(bmp);
-        //    pictureBox1.Image = bmp;
-        //    scene.Draw(g, pictureBox1.Width, pictureBox1.Height, rotX, rotY, rotZ);
-        //}
-        
 
         private void buttonRz_Click(object sender, EventArgs e)
         {
